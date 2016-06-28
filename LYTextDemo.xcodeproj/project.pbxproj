@@ -13,6 +13,9 @@
 		AC11C17B1D227FB800941048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC11C1791D227FB800941048 /* Main.storyboard */; };
 		AC11C17D1D227FB800941048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC11C17C1D227FB800941048 /* Assets.xcassets */; };
 		AC11C1801D227FB800941048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC11C17E1D227FB800941048 /* LaunchScreen.storyboard */; };
+		AC11C18A1D22801D00941048 /* NSString+MYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11C1891D22801D00941048 /* NSString+MYAdd.m */; };
+		AC11C18D1D22803300941048 /* UITextField+MYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11C18C1D22803300941048 /* UITextField+MYAdd.m */; };
+		AC11C1901D22804600941048 /* UITextView+MYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11C18F1D22804600941048 /* UITextView+MYAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		AC11C17C1D227FB800941048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC11C17F1D227FB800941048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC11C1811D227FB800941048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC11C1881D22801D00941048 /* NSString+MYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MYAdd.h"; sourceTree = "<group>"; };
+		AC11C1891D22801D00941048 /* NSString+MYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MYAdd.m"; sourceTree = "<group>"; };
+		AC11C18B1D22803300941048 /* UITextField+MYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+MYAdd.h"; sourceTree = "<group>"; };
+		AC11C18C1D22803300941048 /* UITextField+MYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+MYAdd.m"; sourceTree = "<group>"; };
+		AC11C18E1D22804600941048 /* UITextView+MYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+MYAdd.h"; sourceTree = "<group>"; };
+		AC11C18F1D22804600941048 /* UITextView+MYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+MYAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 		AC11C16F1D227FB800941048 /* LYTextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AC11C1871D227FFE00941048 /* Text */,
 				AC11C1731D227FB800941048 /* AppDelegate.h */,
 				AC11C1741D227FB800941048 /* AppDelegate.m */,
 				AC11C1761D227FB800941048 /* ViewController.h */,
@@ -77,6 +87,19 @@
 				AC11C1711D227FB800941048 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC11C1871D227FFE00941048 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				AC11C1881D22801D00941048 /* NSString+MYAdd.h */,
+				AC11C1891D22801D00941048 /* NSString+MYAdd.m */,
+				AC11C18B1D22803300941048 /* UITextField+MYAdd.h */,
+				AC11C18C1D22803300941048 /* UITextField+MYAdd.m */,
+				AC11C18E1D22804600941048 /* UITextView+MYAdd.h */,
+				AC11C18F1D22804600941048 /* UITextView+MYAdd.m */,
+			);
+			path = Text;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC11C1781D227FB800941048 /* ViewController.m in Sources */,
+				AC11C18A1D22801D00941048 /* NSString+MYAdd.m in Sources */,
 				AC11C1751D227FB800941048 /* AppDelegate.m in Sources */,
 				AC11C1721D227FB800941048 /* main.m in Sources */,
+				AC11C18D1D22803300941048 /* UITextField+MYAdd.m in Sources */,
+				AC11C1901D22804600941048 /* UITextView+MYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
